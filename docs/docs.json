@@ -1,0 +1,45 @@
+{
+  "name": "Your Product",
+  "description": "Documentation for Your Product.",
+  "background": "linear-wash",
+  "colors": {
+    "primary": "#4F46E5"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting started",
+        "pages": [
+          "index",
+          "quickstart",
+          "concepts"
+        ]
+      }
+    ]
+  },
+  "fonts": {
+    "body": {
+      "family": "Instrument Sans",
+      "weights": [
+        400,
+        500,
+        600
+      ]
+    },
+    "heading": {
+      "family": "Bricolage Grotesque",
+      "weights": [
+        500,
+        600,
+        700
+      ]
+    },
+    "mono": {
+      "family": "IBM Plex Mono",
+      "weights": [
+        400,
+        500
+      ]
+    }
+  }
+}
