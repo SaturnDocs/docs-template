@@ -13,9 +13,10 @@ Any other file in this directory stops the publish. This file and `CLAUDE.md` ar
 
 ## Before every commit
 
-Run both checks from this directory and fix every error they report. Each error names a file, a line, a rule, and a fix.
+Run the check from this directory and fix every error it reports. Each finding names a file, a line where one exists, a rule, and a fix.
 
 ```sh
-npx saturndocs validate . --json
-npx saturndocs lint . --json
+npx saturndocs check . --json
 ```
+
+An error fails the publish or shows readers a broken page. A warning is a heuristic: compare it with the page, correct the page if the warning is right, and leave a correct page as it is.
