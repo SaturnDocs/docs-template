@@ -24,11 +24,10 @@ gh repo create <name> --private --template SaturnDocs/docs-template --clone
 
 ## Check changes locally
 
-Run both checks from the repository root before each push.
+Run the check from the repository root before each push.
 
 ```sh
-npx saturndocs@0.3 validate docs
-npx saturndocs@0.3 lint docs
+npx saturndocs@latest check docs
 ```
 
-Fix any errors and lint findings. Push to the connected branch to publish your changes.
+Fix every error. Push to the connected branch to publish your changes.
