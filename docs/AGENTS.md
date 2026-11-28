@@ -13,6 +13,8 @@ Any other file in this directory stops the publish. This file and `CLAUDE.md` ar
 
 ## Before every commit
 
+The SaturnDocs CLI needs a login for every command. If `npx saturndocs auth status --json` reports no login, run `npx saturndocs login --no-wait --json`, give the person the link and the code, then run `npx saturndocs login --resume --json`.
+
 Run the check from this directory and fix every error it reports. Each finding names a file, a line where one exists, a rule, and a fix.
 
 ```sh
